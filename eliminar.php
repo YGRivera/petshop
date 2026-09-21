@@ -11,3 +11,54 @@ mysqli_query($conexion, $sql);
 header("Location:index.php");
 
 ?>
+
+
+
+<head>
+    <title>Pet Fashion</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/n.css
+
+    <style>
+
+        body{
+            background:#f4f6f9;
+        }
+
+        .titulo{
+            text-align:center;
+            margin-top:25px;
+            color:#2c3e50;
+            font-weight:bold;
+        }
+
+        .contenedor{
+            max-width:1000px;
+            margin:auto;
+            margin-top:30px;
+            background:white;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .btn-agregar{
+            margin-bottom:20px;
+        }
+
+        table{
+            text-align:center;
+        }
+
+        th{
+            background:#0d6efd;
+            color:white;
+        }
+
+        tr:hover{
+            background:#f1f1f1;
+        }
+
+    </style>
+
+</head>
